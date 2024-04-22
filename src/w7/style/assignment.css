@@ -6,3 +6,9 @@ body {
   margin: 0;
   background-color: #f3f3f3;
 }
+
+.container {
+  max-width: 75rem;
+  margin-inline: auto;
+  background-color: #464951;
+}
