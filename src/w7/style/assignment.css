@@ -589,12 +589,22 @@ img {
 }
 
 .box-4 {
-  padding-top: 96px;
-  padding-bottom: 80px;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1.5rem;
   display: block;
   margin-inline: 522.5px;
+  height: 888.2px;
+  padding-top: 96px;
+  padding-bottom: 80px;
+}
+
+.box-4 > h2 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  letter-spacing: -2px;
+  font-weight: 700;
+  color: #080c16;
+  display: block;
 }
