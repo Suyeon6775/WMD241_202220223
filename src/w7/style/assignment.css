@@ -98,3 +98,69 @@ h2 {
   line-height: 1.4375rem;
   color: #00ad6a;
 }
+
+.first__box-inside-list {
+  margin: 0rem 0rem 1rem 1rem;
+  padding: 0;
+  list-style: disc;
+}
+
+.first__box-inside > p {
+  margin: 0;
+}
+
+.second__box-inside {
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+  padding-inline: 2rem;
+}
+
+.top {
+  margin: 1rem 0 0 0;
+  padding-inline: 1rem;
+  text-align: center;
+  letter-spacing: -0.0938rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: rgb(0, 173, 106);
+}
+
+.middlefirst {
+  margin: 0.5rem 0 1.5rem 0;
+  padding-left: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: -0.0313rem;
+  text-align: center;
+  color: rgb(131, 133, 138);
+}
+
+.middlesecond {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding-inline: 2rem;
+  padding-block: 0.5rem 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+  text-align: center;
+  color: rgb(6, 44, 39);
+  background-color: rgb(31, 227, 116);
+}
+
+.bottom {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.0625rem;
+  line-height: 0.2375rem;
+  text-align: center;
+  color: rgb(70, 73, 81);
+}
+
+.second__box-inside-list {
+  margin-top: 0px;
+  margin-bottom: 1rem;
+  list-style: none;
+}
