@@ -59,7 +59,7 @@ body {
   justify-content: center;
   margin-inline: 522.5px;
   margin-block: 0rem 2.5rem;
-  max-width: 75rem;
+  max-width: 1515px;
   padding-inline: 1.5rem;
   padding-bottom: 2.5rem;
 }
@@ -550,7 +550,7 @@ h2 {
   justify-content: center;
   display: flex;
   width: 100%;
-  max-width: 75rem;
+  max-width: 1515px;
   margin: 0 auto;
   padding: 0 1.5rem;
   margin-inline: 522.5px;
@@ -590,7 +590,7 @@ img {
 
 .box-4 {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1515px;
   margin: 0 auto;
   padding: 0 1.5rem;
   display: block;
