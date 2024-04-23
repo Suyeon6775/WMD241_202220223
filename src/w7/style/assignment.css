@@ -4,6 +4,7 @@
   /*font-family: Palo compressed medium;*/
   font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
   background-color: fcfcfc;
+  max-width: 3367px;
 }
 
 body {
@@ -59,7 +60,7 @@ body {
   justify-content: center;
   margin-inline: 522.5px;
   margin-block: 0rem 2.5rem;
-  max-width: 1515px;
+  max-width: 100%;
   padding-inline: 1.5rem;
   padding-bottom: 2.5rem;
 }
@@ -549,8 +550,8 @@ h2 {
 .box-3 {
   justify-content: center;
   display: flex;
-  width: 100%;
-  max-width: 1515px;
+
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 1.5rem;
   margin-inline: 522.5px;
@@ -589,8 +590,7 @@ img {
 }
 
 .box-4 {
-  width: 100%;
-  max-width: 1515px;
+  max-width: 100%px;
   margin: 0 auto;
   padding: 0 1.5rem;
   display: block;
