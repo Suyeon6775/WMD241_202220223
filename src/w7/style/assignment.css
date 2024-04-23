@@ -44,6 +44,11 @@ body {
   padding-inline: 1rem;
 }
 
+.pricing-boxs {
+  display: flex;
+  align-items: center;
+}
+
 .second {
   margin-inline: auto;
 }
@@ -70,7 +75,7 @@ h1 {
   margin-inline: auto;
 }
 
-.body > p {
+.body > div {
   margin: 0;
   font-size: 1.125rem;
   line-height: 1.6875rem;
@@ -84,10 +89,17 @@ h1 {
 
 .first__box {
   padding: 2rem;
+  width: 24.6663rem;
+  height: 31.3125rem;
+  display: flex;
 }
+
 .first__box-inside {
   padding-inline: 1.5rem;
   color: #464951;
+  max-width: 75rem;
+  width: 20.6663rem;
+  height: 27.3125rem;
 }
 
 h2 {
@@ -109,12 +121,28 @@ h2 {
   margin: 0;
 }
 
+.second__box {
+  width: 24.6663rem;
+  height: 42.6125rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border: 0.0625rem solid rgb(0, 173, 06);
+  background-color: rgb(255, 255, 255);
+}
+
 .second__box-inside {
   padding-top: 3rem;
   padding-bottom: 1.5rem;
   padding-inline: 2rem;
+  height: 42.4875rem;
 }
 
+.second__box-inside-top {
+  display: inline-block;
+}
+.second__box-inside-down {
+  display: flex;
+}
 .top {
   margin: 1rem 0 0 0;
   padding-inline: 1rem;
@@ -123,7 +151,8 @@ h2 {
   font-size: 3rem;
   font-weight: 700;
   line-height: 3rem;
-  color: rgb(0, 173, 106);
+  color: #00ad6a;
+  display: block;
 }
 
 .middlefirst {
@@ -134,10 +163,17 @@ h2 {
   line-height: 1.5rem;
   letter-spacing: -0.0313rem;
   text-align: center;
-  color: rgb(131, 133, 138);
+  color: #83858a;
 }
 
+.signupnowbox {
+  width: 20.5413rem;
+  height: 5.125rem;
+  align-items: center;
+  display: flexbox;
+}
 .middlesecond {
+  align-items: center;
   margin-top: 0;
   margin-bottom: 2rem;
   padding-inline: 2rem;
@@ -146,21 +182,48 @@ h2 {
   font-weight: 700;
   line-height: 1.875rem;
   text-align: center;
-  color: rgb(6, 44, 39);
+  color: #464951;
   background-color: rgb(31, 227, 116);
+  width: 11.8069rem;
+  height: 3.125rem;
+  display: block;
 }
 
 .bottom {
+  margin: 0;
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.0625rem;
   line-height: 0.2375rem;
   text-align: center;
   color: rgb(70, 73, 81);
+  height: 0.8625rem;
 }
 
 .second__box-inside-list {
+  padding: 0;
   margin-top: 0px;
   margin-bottom: 1rem;
   list-style: none;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #464951;
+  text-align: left;
+}
+.second__box-inside-list > li {
+  padding-block: 0.5rem;
+  display: block;
+}
+
+.third__box {
+  width: 24.6663rem;
+  height: 35.6125rem;
+  border: 0.0625rem solid rgb(214, 218, 229);
+  background-color: rgb(255, 255, 255);
+}
+
+.third__box-inside {
+  padding: 3rem 2rem 1.5rem 2rem;
+  height: 35.4875rem;
 }
