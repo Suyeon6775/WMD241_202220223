@@ -304,3 +304,12 @@ h2 {
   padding: 3rem 2rem 1.5rem 2rem;
   height: 35.4875rem;
 }
+
+.pb-box-2-inside-list {
+  margin-bottom: 1rem;
+  letter-spacing: -0.0313rem;
+  text-align: left;
+  font-weight: 400;
+  color: #464951;
+  list-style: none;
+}
