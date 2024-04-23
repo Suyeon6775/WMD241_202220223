@@ -19,7 +19,7 @@ body {
 
 .navigation {
   display: flex;
-  margin-inline: 22.1875rem;
+  margin-inline: 522.5px;
   padding-block: 3rem;
   padding-inline: 1.5rem;
   justify-content: space-between;
@@ -48,10 +48,6 @@ body {
   padding-inline: 1rem;
 }
 
-.main {
-  height: 2234.99px;
-}
-
 .bg-green {
   height: 1346.8px;
   background-color: #eafaf1;
@@ -61,7 +57,7 @@ body {
 .box-1 {
   display: flex;
   justify-content: center;
-  margin-inline: 22.1875rem;
+  margin-inline: 522.5px;
   margin-block: 0rem 2.5rem;
   max-width: 75rem;
   padding-inline: 1.5rem;
@@ -557,7 +553,7 @@ h2 {
   max-width: 75rem;
   margin: 0 auto;
   padding: 0 1.5rem;
-  margin-inline: 355px;
+  margin-inline: 522.5px;
   padding-block: 96px;
   height: 24.625rem;
 }
@@ -586,4 +582,19 @@ img {
   font-size: 0.75rem;
   display: block;
   color: #00ad6a;
+}
+
+.bg-white {
+  height: 888.2px;
+}
+
+.box-4 {
+  padding-top: 96px;
+  padding-bottom: 80px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: block;
+  margin-inline: 522.5px;
 }
