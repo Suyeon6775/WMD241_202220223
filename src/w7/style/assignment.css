@@ -1,16 +1,18 @@
 * {
+  margin: 0;
   box-sizing: border-box;
-  font-family: Palo compressed medium;
+  /*font-family: Palo compressed medium;*/
+  font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: fcfcfc;
 }
 
 body {
-  margin: 0;
-  background-color: #fcfcfc;
-  background-color: #eafaf1;
+  max-width: 119.375rem;
 }
 
-.container {
+.header {
   margin-inline: auto;
+  background-color: #eafaf1;
 }
 
 .navigation {
@@ -42,6 +44,81 @@ body {
   border: 2px solid #00ad6a;
   padding-block: 0.25rem;
   padding-inline: 1rem;
+}
+
+.box-1 {
+  display: flex;
+  justify-content: center;
+  margin-inline: 22.1875rem;
+  margin-block: 0rem 2.5rem;
+  max-width: 75rem;
+  padding-inline: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+.box-1-container {
+  display: block;
+  max-width: 37.5rem;
+  text-align: center;
+}
+
+h1 {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 3.75rem;
+  font-weight: 700;
+  letter-spacing: -0.125rem;
+  line-height: 3.75rem;
+  text-align: center;
+  color: #080c16;
+}
+
+.content-box > p {
+  font-size: 1.125rem;
+  text-align: center;
+  line-height: 1.6875rem;
+  color: #080c16;
+}
+
+.box-2 {
+  width: 100%;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: block;
+}
+
+.pb-box-1-outside {
+  width: 33.33333%;
+  padding: 2rem;
+  display: flex;
+}
+
+.pb-box-1-inside {
+  padding: 0 1.5rem;
+  display: block;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #00ad6a;
+  display: block;
+}
+
+.pb-box-1-inside-list {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  padding: 0;
+  display: block;
+  color: #464951;
+}
+
+.text-base {
+  color: #464951;
+  font-size: 1rem;
+  display: block;
 }
 
 .pricing-boxs {
