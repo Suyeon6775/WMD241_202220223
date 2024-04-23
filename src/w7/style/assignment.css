@@ -76,3 +76,25 @@ h1 {
   line-height: 1.6875rem;
   height: 3.375rem;
 }
+
+.container__Third {
+  margin-inline: 22.8125rem;
+  padding-inline: 1.5rem;
+}
+
+.first__box {
+  padding: 2rem;
+}
+.first__box-inside {
+  padding-inline: 1.5rem;
+  color: #464951;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.4375rem;
+  color: #00ad6a;
+}
