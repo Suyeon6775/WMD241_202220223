@@ -550,13 +550,12 @@ h2 {
 .box-3 {
   justify-content: center;
   display: flex;
-
-  max-width: 100%;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 1.5rem;
-  margin-inline: 522.5px;
+  margin-inline: 241.5px;
   padding-block: 96px;
-  height: 24.625rem;
 }
 
 .text-center {
@@ -590,12 +589,12 @@ img {
 }
 
 .box-4 {
-  max-width: 100%px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 1.5rem;
   display: block;
-  margin-inline: 522.5px;
-  height: 888.2px;
+  margin-inline: 241.5px;
   padding-top: 96px;
   padding-bottom: 80px;
 }
