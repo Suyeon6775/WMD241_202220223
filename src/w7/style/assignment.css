@@ -20,7 +20,7 @@ body {
 
 .navigation {
   display: flex;
-  margin-inline: 522.5px;
+  margin-inline: 241.5px;
   padding-block: 3rem;
   padding-inline: 1.5rem;
   justify-content: space-between;
@@ -41,6 +41,12 @@ body {
 .navigation__menu-group > .navigation__logo {
   width: 7.4375rem;
   height: 3.0625rem;
+}
+
+.navigation__logo > img {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .navigation__menu-group > .navigation__menu-group-border {
@@ -606,4 +612,32 @@ img {
   font-weight: 700;
   color: #080c16;
   display: block;
+}
+
+.faq-blocks {
+  margin-inline: -1rem;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.faq-box {
+  width: 50%;
+  padding-block: 1.5rem;
+  padding-inline: 1rem;
+  display: block;
+}
+
+.h4 {
+  font-size: 1.25rem;
+  line-height: 1.15;
+  font-weight: 700;
+  color: #080c16;
+  display: block;
+}
+
+.faq-box > p {
+  font-size: 1.125rem;
+  display: block;
+  color: #464951;
+  line-height: 1.5;
 }
