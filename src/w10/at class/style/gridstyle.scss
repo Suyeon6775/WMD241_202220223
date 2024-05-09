@@ -15,16 +15,16 @@ body {
   display: grid;
   column-gap: 1.5rem;
   row-gap: 1.5rem; // = gap 24px
-  grid-template-columns: 12.5rem repeat(auto-fit, minmax(18.75rem, 1fr));
-  max-width: 64rem;
+  grid-template-columns: 12.5rem repeat(auto-fit, minmax(15rem, 1fr));
+  max-width: 80rem;
   padding: 0.75rem;
   background-color: oklch(0.5 0 0);
   margin-inline: auto; //가운데 배치
 }
 
 .sidebar {
-  grid-column: 1; //가로로 몇번째 그리드 칸에 위치하게 할 것인가.
-  grid-row: 1 / span 3; //위아래로 몇번째 칸에 위치하게 할 거냐. 둘다 자녀에게 부여하는 속성. 자리가 명시되어 있기 때문에 얘는 그 자리 찾아가고 나머지들은 위치 순서대로 들어감
+  grid-column: 1 / span 1; //가로로 몇번째 그리드 칸에 위치하게 할 것인가.
+  grid-row: 1 / -1; //위아래로 몇번째 칸에 위치하게 할 거냐. 둘다 자녀에게 부여하는 속성. 자리가 명시되어 있기 때문에 얘는 그 자리 찾아가고 나머지들은 위치 순서대로 들어감
   background-color: #fff;
   padding: 0.75rem;
 }
@@ -32,5 +32,11 @@ body {
 .card-collection {
   display: grid;
   grid-column: 2 / -1;
+  grid-row: 1 / -1;
   grid-template-columns: subgrid;
+  grid-auto-rows: subgrid;
+}
+
+.title {
+  grid-column: 1 / -1;
 }
