@@ -178,3 +178,18 @@ body {
   margin-bottom: 0.5rem;
   margin-top: 0;
 }
+
+.bottom {
+  margin-top: 6rem;
+  padding-inline: 1.5rem;
+  justify-content: center;
+  background-color: #10284b;
+}
+.bottom__container {
+  margin-top: 5rem;
+}
+.bottom__container-top {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
