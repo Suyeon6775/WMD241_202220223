@@ -4,12 +4,15 @@
 
 body {
   margin: 0;
-  // font-family:
+  font-family: ArminGrotesk, ArminGroteskBlack, ArminGroteskSemiBold, sans-serif;
+
   line-height: 1.75rem;
+  letter-spacing: 1px;
 }
 
 .navigation {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
+  font-weight: 900;
   background-color: #f6f6eb;
   color: #381fd1;
   padding: 1rem;
@@ -29,13 +32,11 @@ body {
     &__page-title {
       display: flex;
     }
-
-    &--right {
-    }
   }
 
   &__logo {
     aspect-ratio: 200 / 51;
+    padding-top: 0.4375rem;
   }
 
   &__btn-fill {
@@ -45,21 +46,170 @@ body {
     border: 0.125rem solid #381fd1;
     border-radius: 0.375rem;
   }
+
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+  }
+
+  ol > li {
+    padding-inline: 0.5rem;
+    margin: 0.125rem;
+  }
+
+  li > svg {
+    padding-top: 0.1875rem;
+  }
 }
 
-ol {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 1rem;
-}
+.feature {
+  padding-inline: 1.5rem;
+  justify-content: center;
 
-ol > li {
-  padding-inline: 0.5rem;
-  margin: 0.125rem;
-}
+  &__container {
+    display: flex;
+    justify-content: center;
 
-li > svg {
-  padding-top: 0.1875rem;
+    &__nav {
+      padding-top: 4rem;
+
+      &-left-text {
+        font-size: 1rem;
+        line-height: 1rem;
+        margin-bottom: 0.875rem;
+        font-weight: 500;
+        color: #4b4b4e;
+      }
+
+      &-left-input {
+        border: 0.125rem solid #acacaf;
+        border-radius: 0.25rem;
+        width: 100%;
+        padding-inline: 2.5rem 1rem;
+      }
+
+      ol {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        padding: 1rem 0 1rem 1.25rem;
+        font-weight: 600;
+        color: #4b4b4e;
+      }
+
+      &-left-box {
+        padding: 1.5rem;
+        margin-top: 1.5rem;
+        background-color: #f3f2fc;
+        border-radius: 0.5rem;
+
+        h4 {
+          margin: 0;
+          font-size: 1.5rem;
+          font-weight: 900;
+          line-height: 1.1;
+          color: #10284b;
+        }
+
+        p {
+          margin-block: 0.5rem 1.5rem;
+          line-height: 1.7;
+        }
+
+        &-link {
+          align-items: center;
+          color: #fff;
+          font-weight: 500;
+          padding: 0.375rem 1rem 0.375rem 1rem;
+          background-color: #381fd1;
+          border: 0.125rem solid transparent;
+          border-radius: 0.375rem;
+        }
+      }
+    }
+
+    &-right-1 {
+      margin: 4rem 0 0 4rem;
+
+      &-hero {
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        margin-bottom: 0.5rem;
+
+        h2 {
+          margin: 0;
+          font-weight: 900;
+          line-height: 1.1;
+          font-size: 3rem;
+          letter-spacing: 0.0313rem;
+          color: #10284b;
+        }
+
+        a {
+          font-size: 1rem;
+          font-weight: 700;
+          line-height: 140%;
+          color: #381fd1;
+          letter-spacing: -0.0313rem;
+        }
+      }
+
+      img {
+        width: 2.5rem;
+        height: 2.5rem;
+        border: 0.0625rem solid #cbcbcd;
+        border-radius: 0.5rem;
+      }
+
+      p {
+        margin: 0 0 1.5rem 0;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        color: #10284b;
+      }
+
+      &-grid {
+        display: grid;
+        column-gap: 2rem;
+        row-gap: 2rem;
+        margin-bottom: 4rem;
+
+        &-card-1,
+        &-card-2,
+        &-card-3,
+        &-card-4,
+        &-card-5,
+        &-card-6 {
+          // background-color: aqua;
+          border: 0.0625rem solid #e5e5e6;
+          border-radius: 0.5rem;
+          padding: 1.5rem 1.5rem 1.5rem 2.5rem;
+
+          p {
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1.4;
+            color: #381fd1;
+            margin-block: 0.75rem 0.5rem;
+          }
+
+          h4 {
+            font-size: 1.5rem;
+            font-weight: 900;
+            line-height: 1.1;
+            color: #10284b;
+            margin-bottom: 0.5rem;
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
 }
