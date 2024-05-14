@@ -242,3 +242,33 @@ body {
   line-height: 1.4;
   color: #fedb63;
 }
+
+.feature__container-right-1-hero-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, 261px);
+  grid-auto-rows: 1fr;
+  margin-bottom: 4rem;
+}
+.feature__container-right-1-hero-grid a {
+  border-width: 1px;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  background-color: #f6f6eb;
+  height: 350px;
+  position: relative;
+}
+.feature__container-right-1-hero-grid img {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+}
+.feature__container-right-1-hero-grid h4 {
+  margin: 0;
+  position: relative;
+  color: #10284b;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1.1;
+  z-index: 10;
+}
