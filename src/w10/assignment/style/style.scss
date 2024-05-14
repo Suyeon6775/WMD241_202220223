@@ -40,6 +40,7 @@ body {
   }
 
   &__btn-fill {
+    min-width: 161px;
     padding-inline: 8px;
     background-color: #381fd1;
     color: #fff;
@@ -178,7 +179,7 @@ body {
 
       &-1-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(261px, 3fr));
         column-gap: 32px;
         row-gap: 2rem;
         margin-bottom: 4rem;
@@ -316,11 +317,9 @@ body {
       // background-color: aquamarine;
 
       &-item {
-        min-width: 48rem;
         display: grid;
         gap: 3rem;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-        // background-color: blue;
+        grid-template-columns: repeat(auto-fit, minmax(12.5rem, 3fr));
 
         &-1,
         &-2,
