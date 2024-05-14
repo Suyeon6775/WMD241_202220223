@@ -92,6 +92,7 @@ body {
   color: #4b4b4e;
 }
 .feature__container__nav-left-box {
+  align-items: center;
   padding: 1.5rem;
   margin-top: 1.5rem;
   background-color: #f3f2fc;
@@ -112,7 +113,7 @@ body {
   align-items: center;
   color: #fff;
   font-weight: 500;
-  padding: 0.375rem 1rem 0.375rem 1rem;
+  padding: 0.375rem 2rem 0.375rem 2rem;
   background-color: #381fd1;
   border: 0.125rem solid transparent;
   border-radius: 0.375rem;
@@ -194,24 +195,47 @@ body {
   max-width: 72.5rem;
   margin-top: 5rem;
 }
-.bottom__container__text {
-  background-color: aquamarine;
-}
 .bottom__container__text-item {
   min-width: 48rem;
   display: grid;
   gap: 3rem;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  background-color: blue;
+}
+.bottom__container__text-item-1 ol, .bottom__container__text-item-2 ol, .bottom__container__text-item-3 ol, .bottom__container__text-item-4 ol, .bottom__container__text-item-5 ol, .bottom__container__text-item-6 ol, .bottom__container__text-item-7 ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.bottom__container__text-item-1 li, .bottom__container__text-item-2 li, .bottom__container__text-item-3 li, .bottom__container__text-item-4 li, .bottom__container__text-item-5 li, .bottom__container__text-item-6 li, .bottom__container__text-item-7 li {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #fff;
+  margin-bottom: 0.5rem;
 }
 .bottom__container__text-item-1 p, .bottom__container__text-item-2 p, .bottom__container__text-item-3 p, .bottom__container__text-item-4 p, .bottom__container__text-item-5 p, .bottom__container__text-item-6 p, .bottom__container__text-item-7 p {
   font-size: 0.875rem;
   font-weight: 900;
   line-height: 1.5;
-}
-.bottom__container__text-item-1 ol, .bottom__container__text-item-2 ol, .bottom__container__text-item-3 ol, .bottom__container__text-item-4 ol, .bottom__container__text-item-5 ol, .bottom__container__text-item-6 ol, .bottom__container__text-item-7 ol {
-  list-style: none;
-}
-.bottom__container__text-item-1 li, .bottom__container__text-item-2 li, .bottom__container__text-item-3 li, .bottom__container__text-item-4 li, .bottom__container__text-item-5 li, .bottom__container__text-item-6 li, .bottom__container__text-item-7 li {
+  color: #fff;
   margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+.bottom__container__icon-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 5rem;
+  align-items: center;
+}
+.bottom__container__icon-wrap-left {
+  margin-top: 4px;
+}
+.bottom__container__icon-wrap-left img {
+  width: 2rem;
+}
+.bottom__container__icon-wrap-right {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #fedb63;
 }
