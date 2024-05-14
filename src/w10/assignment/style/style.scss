@@ -67,14 +67,16 @@ body {
 
 .feature {
   padding-inline: 1.5rem;
+  display: flex;
   justify-content: center;
 
   &__container {
+    max-width: 75rem;
     display: flex;
-    justify-content: center;
 
     &__nav {
       padding-top: 4rem;
+      min-width: 17.5rem;
 
       &-left-text {
         font-size: 1rem;
@@ -88,7 +90,7 @@ body {
         border: 0.125rem solid #acacaf;
         border-radius: 0.25rem;
         width: 100%;
-        padding-inline: 2.5rem 1rem;
+        padding: 12px;
       }
 
       ol {
@@ -130,6 +132,7 @@ body {
           background-color: #381fd1;
           border: 0.125rem solid transparent;
           border-radius: 0.375rem;
+          display: inline-flex;
         }
       }
     }
@@ -180,6 +183,8 @@ body {
         column-gap: 2rem;
         row-gap: 2rem;
         margin-bottom: 4rem;
+        // grid-template-columns: repeat(auto-fit, minmax(261px, auto));
+        // grid-auto-rows: 1fr;
 
         &-card-1,
         &-card-2,
@@ -190,7 +195,7 @@ body {
           // background-color: aqua;
           border: 0.0625rem solid #e5e5e6;
           border-radius: 0.5rem;
-          padding: 1.5rem 1.5rem 1.5rem 2.5rem;
+          padding: 1.5rem 1.5rem 2.5rem 1.5rem;
 
           p {
             font-size: 1rem;
@@ -215,18 +220,27 @@ body {
 }
 
 .bottom {
-  margin-top: 6rem;
   padding-inline: 1.5rem;
-  justify-content: center;
   background-color: #10284b;
+  justify-content: center;
+  display: flex;
+  margin-top: 6rem;
 
   &__container {
+    flex-grow: 1;
+    max-width: 72.5rem;
     margin-top: 5rem;
 
-    &-top {
-      display: grid;
-      gap: 3rem;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+    &__text {
+      background-color: aquamarine;
+
+      &-item {
+        min-width: 48rem;
+        display: grid;
+        gap: 3rem;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        background-color: blue;
+      }
     }
   }
 }

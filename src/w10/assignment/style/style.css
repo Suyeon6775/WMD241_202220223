@@ -57,14 +57,16 @@ body {
 
 .feature {
   padding-inline: 1.5rem;
-  justify-content: center;
-}
-.feature__container {
   display: flex;
   justify-content: center;
 }
+.feature__container {
+  max-width: 75rem;
+  display: flex;
+}
 .feature__container__nav {
   padding-top: 4rem;
+  min-width: 17.5rem;
 }
 .feature__container__nav-left-text {
   font-size: 1rem;
@@ -77,7 +79,7 @@ body {
   border: 0.125rem solid #acacaf;
   border-radius: 0.25rem;
   width: 100%;
-  padding-inline: 2.5rem 1rem;
+  padding: 12px;
 }
 .feature__container__nav ol {
   list-style: none;
@@ -114,6 +116,7 @@ body {
   background-color: #381fd1;
   border: 0.125rem solid transparent;
   border-radius: 0.375rem;
+  display: inline-flex;
 }
 .feature__container-right-1 {
   margin: 4rem 0 0 4rem;
@@ -161,7 +164,7 @@ body {
 .feature__container-right-1-grid-card-1, .feature__container-right-1-grid-card-2, .feature__container-right-1-grid-card-3, .feature__container-right-1-grid-card-4, .feature__container-right-1-grid-card-5, .feature__container-right-1-grid-card-6 {
   border: 0.0625rem solid #e5e5e6;
   border-radius: 0.5rem;
-  padding: 1.5rem 1.5rem 1.5rem 2.5rem;
+  padding: 1.5rem 1.5rem 2.5rem 1.5rem;
 }
 .feature__container-right-1-grid-card-1 p, .feature__container-right-1-grid-card-2 p, .feature__container-right-1-grid-card-3 p, .feature__container-right-1-grid-card-4 p, .feature__container-right-1-grid-card-5 p, .feature__container-right-1-grid-card-6 p {
   font-size: 1rem;
@@ -180,16 +183,35 @@ body {
 }
 
 .bottom {
-  margin-top: 6rem;
   padding-inline: 1.5rem;
-  justify-content: center;
   background-color: #10284b;
+  justify-content: center;
+  display: flex;
+  margin-top: 6rem;
 }
 .bottom__container {
+  flex-grow: 1;
+  max-width: 72.5rem;
   margin-top: 5rem;
 }
-.bottom__container-top {
+.bottom__container__text {
+  background-color: aquamarine;
+}
+.bottom__container__text-item {
+  min-width: 48rem;
   display: grid;
   gap: 3rem;
   grid-template-columns: repeat(4, minmax(0, 1fr));
+  background-color: blue;
+}
+.bottom__container__text-item-1 p, .bottom__container__text-item-2 p, .bottom__container__text-item-3 p, .bottom__container__text-item-4 p, .bottom__container__text-item-5 p, .bottom__container__text-item-6 p, .bottom__container__text-item-7 p {
+  font-size: 0.875rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.bottom__container__text-item-1 ol, .bottom__container__text-item-2 ol, .bottom__container__text-item-3 ol, .bottom__container__text-item-4 ol, .bottom__container__text-item-5 ol, .bottom__container__text-item-6 ol, .bottom__container__text-item-7 ol {
+  list-style: none;
+}
+.bottom__container__text-item-1 li, .bottom__container__text-item-2 li, .bottom__container__text-item-3 li, .bottom__container__text-item-4 li, .bottom__container__text-item-5 li, .bottom__container__text-item-6 li, .bottom__container__text-item-7 li {
+  margin-bottom: 0.5rem;
 }

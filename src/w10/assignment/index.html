@@ -7,423 +7,291 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <nav class="section navigation">
-      <div class="navigation__container">
-        <div class="navigation__menu-group navigation__menu-group--left">
-          <div class="navigation__logo">
-            <svg
-              width="32"
-              height="32"
-              viewBox="0 0 32 32"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-label="Home"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32ZM15.4225 22.7124V25.607C18.1716 25.7753 20.8606 24.7551 22.806 22.8056C26.5647 19.0469 26.5647 12.9531 22.806 9.19477C22.4644 8.85297 22.0977 8.53716 21.709 8.25L19.6336 10.3252L10.3245 19.6332C8.61894 16.9674 8.99804 13.4741 11.2358 11.2362C12.6405 9.8287 14.5963 9.11525 16.5775 9.28762V6.39295C13.8284 6.22472 11.1394 7.24504 9.19403 9.19458C5.43532 12.9532 5.43532 19.047 9.19403 22.8054C9.53564 23.1472 9.90231 23.463 10.291 23.7501L12.3663 21.675L21.6754 12.3668C23.381 15.0325 23.0019 18.5259 20.7641 20.7638C19.3594 22.1713 17.4036 22.8847 15.4225 22.7124Z"
-                fill="currentColor"
-              ></path>
-            </svg>
+    <div class="screen">
+      <nav class="section navigation">
+        <div class="navigation__container">
+          <div class="navigation__menu-group navigation__menu-group--left">
+            <div class="navigation__logo">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-label="Home"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32ZM15.4225 22.7124V25.607C18.1716 25.7753 20.8606 24.7551 22.806 22.8056C26.5647 19.0469 26.5647 12.9531 22.806 9.19477C22.4644 8.85297 22.0977 8.53716 21.709 8.25L19.6336 10.3252L10.3245 19.6332C8.61894 16.9674 8.99804 13.4741 11.2358 11.2362C12.6405 9.8287 14.5963 9.11525 16.5775 9.28762V6.39295C13.8284 6.22472 11.1394 7.24504 9.19403 9.19458C5.43532 12.9532 5.43532 19.047 9.19403 22.8054C9.53564 23.1472 9.90231 23.463 10.291 23.7501L12.3663 21.675L21.6754 12.3668C23.381 15.0325 23.0019 18.5259 20.7641 20.7638C19.3594 22.1713 17.4036 22.8847 15.4225 22.7124Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <div class="navigation__page-title">
+              <ol>
+                <li>
+                  USE CASES
+                  <svg
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="ml-1"
+                  >
+                    <path
+                      d="M6.79669 8.0716C6.41769 8.6428 5.58231 8.6428 5.20331 8.0716L3.16242 4.9957C2.73821 4.35637 3.19436 3.5 3.95911 3.5L8.04089 3.5C8.80564 3.5 9.26179 4.35637 8.83758 4.9957L6.79669 8.0716Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </li>
+                <li>PRICING</li>
+                <li>SUPPORT</li>
+                <li>
+                  RESOURCES
+                  <svg
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="ml-1"
+                  >
+                    <path
+                      d="M6.79669 8.0716C6.41769 8.6428 5.58231 8.6428 5.20331 8.0716L3.16242 4.9957C2.73821 4.35637 3.19436 3.5 3.95911 3.5L8.04089 3.5C8.80564 3.5 9.26179 4.35637 8.83758 4.9957L6.79669 8.0716Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </li>
+              </ol>
+            </div>
           </div>
-          <div class="navigation__page-title">
+          <div class="navigation__menu-group navigation__menu-group--right">
+            <div class="navigation__btn navigation__btn-noline">LOG IN</div>
+            <div class="navigation__btn navigation__btn-fill">
+              START FREE TRIAL
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="section feature">
+        <div class="feature__container">
+          <nav class="feature__container__nav">
+            <div class="feature__container__nav-left-text">Search Library</div>
+            <input class="feature__container__nav-left-input" type="search" />
             <ol>
-              <li>
-                USE CASES
-                <svg
-                  width="12"
-                  height="12"
-                  viewBox="0 0 12 12"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="ml-1"
-                >
-                  <path
-                    d="M6.79669 8.0716C6.41769 8.6428 5.58231 8.6428 5.20331 8.0716L3.16242 4.9957C2.73821 4.35637 3.19436 3.5 3.95911 3.5L8.04089 3.5C8.80564 3.5 9.26179 4.35637 8.83758 4.9957L6.79669 8.0716Z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-              </li>
-              <li>PRICING</li>
-              <li>SUPPORT</li>
-              <li>
-                RESOURCES
-                <svg
-                  width="12"
-                  height="12"
-                  viewBox="0 0 12 12"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="ml-1"
-                >
-                  <path
-                    d="M6.79669 8.0716C6.41769 8.6428 5.58231 8.6428 5.20331 8.0716L3.16242 4.9957C2.73821 4.35637 3.19436 3.5 3.95911 3.5L8.04089 3.5C8.80564 3.5 9.26179 4.35637 8.83758 4.9957L6.79669 8.0716Z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
-              </li>
+              <li><a href="#Home"></a>Home</li>
+              <li><a href="#Collection"></a>Collections</li>
+              <li><a href="#Categories"></a>Categories</li>
             </ol>
-          </div>
-        </div>
-        <div class="navigation__menu-group navigation__menu-group--right">
-          <div class="navigation__btn navigation__btn-noline">LOG IN</div>
-          <div class="navigation__btn navigation__btn-fill">
-            START FREE TRIAL
-          </div>
-        </div>
-      </div>
-    </nav>
-    <div class="section feature">
-      <div class="feature__container">
-        <nav class="feature__container__nav">
-          <div class="feature__container__nav-left-text">Search Library</div>
-          <input class="feature__container__nav-left-input" type="search" />
-          <ol>
-            <li><a href="#Home"></a>Home</li>
-            <li><a href="#Collection"></a>Collections</li>
-            <li><a href="#Categories"></a>Categories</li>
-          </ol>
-          <div class="feature__container__nav-left-box">
-            <h4>Contribute to Stark</h4>
-            <p>Got any accessibility resources or news?</p>
-            <a
-              class="feature__container__nav-left-box-link"
-              href="https://forms.gle/V15UinvhcEePiJVm7"
-              style="text-decoration: none"
-              >Submit a Resources</a
-            >
-          </div>
-        </nav>
-        <div id="Home" class="feature__container-right-1">
-          <div class="feature__container-right-1-hero">
-            <h2>New in the Library</h2>
-            <a href="https://www.getstark.co/library/all/">VIEW ALL</a>
-          </div>
-          <p>Newly added accessibility resources,guides,and more.</p>
-          <div class="feature__container-right-1-grid">
-            <div class="feature__container-right-1-grid-card-1">
-              <a
-                href="https://www.getstark.co/library/link?href=https%3A%2F%2Finclusivepublishing.org%2F"
-                style="text-decoration: none"
-              >
-                <img src="./assets/daisy_high.jpeg" alt="" />
-                <p>RESOURCES</p>
-                <h4>Inclusive Publishing</h4></a
-              >
+            <div class="feature__container__nav-left">
+              <div class="feature__container__nav-left-box">
+                <h4>Contribute to Stark</h4>
+                <p>Got any accessibility resources or news?</p>
+                <a
+                  class="feature__container__nav-left-box-link"
+                  href="https://forms.gle/V15UinvhcEePiJVm7"
+                  style="text-decoration: none"
+                  >Submit a Resources</a
+                >
+              </div>
             </div>
-            <div class="feature__container-right-1-grid-card-2">
-              <a
-                href="https://www.getstark.co/library/link?href=https%3A%2F%2Fapln.ca%2F"
-                style="text-decoration: none"
-              >
-                <img src="./assets/APLN.png" alt="" />
-                <p>RESOURCES</p>
-                <h4>The APLN (Accessible Publishing...</h4></a
-              >
+          </nav>
+          <div id="Home" class="feature__container-right-1">
+            <div class="feature__container-right-1-hero">
+              <h2>New in the Library</h2>
+              <a href="https://www.getstark.co/library/all/">VIEW ALL</a>
             </div>
-            <div class="feature__container-right-1-grid-card-3">
-              <a
-                href="https://www.getstark.co/library/link?href=https%3A%2F%2Fmakingaccessiblebooks.ca%2F"
-                style="text-decoration: none"
-                v
-              >
-                <img src="./assets/img3.jpeg" alt="" />
-                <p>RESOURCES</p>
-                <h4>Making Accessible Books</h4></a
-              >
+            <p>Newly added accessibility resources,guides,and more.</p>
+            <div class="feature__container-right-1-grid">
+              <div class="feature__container-right-1-grid-card-1">
+                <a
+                  href="https://www.getstark.co/library/link?href=https%3A%2F%2Finclusivepublishing.org%2F"
+                  style="text-decoration: none"
+                >
+                  <img src="./assets/daisy_high.jpeg" alt="" />
+                  <p>RESOURCES</p>
+                  <h4>Inclusive Publishing</h4></a
+                >
+              </div>
+              <div class="feature__container-right-1-grid-card-2">
+                <a
+                  href="https://www.getstark.co/library/link?href=https%3A%2F%2Fapln.ca%2F"
+                  style="text-decoration: none"
+                >
+                  <img src="./assets/APLN.png" alt="" />
+                  <p>RESOURCES</p>
+                  <h4>The APLN (Accessible Publishing...</h4></a
+                >
+              </div>
+              <div class="feature__container-right-1-grid-card-3">
+                <a
+                  href="https://www.getstark.co/library/link?href=https%3A%2F%2Fmakingaccessiblebooks.ca%2F"
+                  style="text-decoration: none"
+                  v
+                >
+                  <img src="./assets/img3.jpeg" alt="" />
+                  <p>RESOURCES</p>
+                  <h4>Making Accessible Books</h4></a
+                >
+              </div>
+              <div class="feature__container-right-1-grid-card-4">
+                <a
+                  href="https://www.getstark.co/library/link?href=http%3A%2F%2Fkb.daisy.org%2Fpublishing%2Fdocs%2F"
+                  style="text-decoration: none"
+                >
+                  <img src="./assets/daisy_high.jpeg" alt="" />
+                  <p>RESOURCES</p>
+                  <h4>The Daisy Consortium's Accessible...</h4></a
+                >
+              </div>
+              <div class="feature__container-right-1-grid-card-5">
+                <a
+                  href="https://www.getstark.co/library/link?href=https%3A%2F%2Flanguageplease.org%2F"
+                  style="text-decoration: none"
+                >
+                  <img src="./assets/Lang.png" alt="" />
+                  <p>RESOURCES</p>
+                  <h4>Language,Please:Style Guid & Resources for...</h4></a
+                >
+              </div>
+              <div class="feature__container-right-1-grid-card-6">
+                <a
+                  href="https://www.getstark.co/library/link?href=https%3A%2F%2Fapln.ca%2F"
+                  style="text-decoration: none"
+                >
+                  <img src="./assets/google.png" alt="" />
+                  <p>BLOUGS & ARTICLES</p>
+                  <h4>4 steps to more inclusive,precise language</h4></a
+                >
+              </div>
             </div>
-            <div class="feature__container-right-1-grid-card-4">
-              <a
-                href="https://www.getstark.co/library/link?href=http%3A%2F%2Fkb.daisy.org%2Fpublishing%2Fdocs%2F"
-                style="text-decoration: none"
-              >
-                <img src="./assets/daisy_high.jpeg" alt="" />
-                <p>RESOURCES</p>
-                <h4>The Daisy Consortium's Accessible...</h4></a
-              >
+            <div class="feature__container-right-1-hero">
+              <h2>Featured Collections</h2>
+              <a href="https://www.getstark.co/library/all/">VIEW ALL</a>
             </div>
-            <div class="feature__container-right-1-grid-card-5">
-              <a
-                href="https://www.getstark.co/library/link?href=https%3A%2F%2Flanguageplease.org%2F"
-                style="text-decoration: none"
-              >
-                <img src="./assets/Lang.png" alt="" />
-                <p>RESOURCES</p>
-                <h4>Language,Please:Style Guid & Resources for...</h4></a
-              >
-            </div>
-            <div class="feature__container-right-1-grid-card-6">
-              <a
-                href="https://www.getstark.co/library/link?href=https%3A%2F%2Fapln.ca%2F"
-                style="text-decoration: none"
-              >
-                <img src="./assets/google.png" alt="" />
-                <p>BLOUGS & ARTICLES</p>
-                <h4>4 steps to more inclusive,precise language</h4></a
-              >
-            </div>
-          </div>
-          <div class="feature__container-right-1-hero">
-            <h2>Featured Collections</h2>
-            <a href="https://www.getstark.co/library/all/">VIEW ALL</a>
-          </div>
-          <p>Handpicked and curated collections around accessibility.</p>
-          <div class="feature__container-right-1-grid">
-            <div class="feature__container-right-1-grid-card-1">
-              <a
-                href="https://www.getstark.co/library/link?href=https%3A%2F%2Finclusivepublishing.org%2F"
-                style="text-decoration: none"
-              >
-                <img src="./assets/daisy_high.jpeg" alt="" />
-                <p>RESOURCES</p>
-                <h4>Inclusive Publishing</h4></a
-              >
-            </div>
-            <div class="feature__container-right-1-grid-card-2">
-              <a
-                href="https://www.getstark.co/library/link?href=https%3A%2F%2Fapln.ca%2F"
-                style="text-decoration: none"
-              >
-                <img src="./assets/APLN.png" alt="" />
-                <p>RESOURCES</p>
-                <h4>The APLN (Accessible Publishing...</h4></a
-              >
-            </div>
-            <div class="feature__container-right-1-grid-card-3">
-              <a
-                href="https://www.getstark.co/library/link?href=https%3A%2F%2Fmakingaccessiblebooks.ca%2F"
-                style="text-decoration: none"
-                v
-              >
-                <img src="./assets/img3.jpeg" alt="" />
-                <p>RESOURCES</p>
-                <h4>Making Accessible Books</h4></a
-              >
+            <p>Handpicked and curated collections around accessibility.</p>
+            <div class="feature__container-right-1-grid">
+              <div class="feature__container-right-1-grid-card-1">
+                <a
+                  href="https://www.getstark.co/library/link?href=https%3A%2F%2Finclusivepublishing.org%2F"
+                  style="text-decoration: none"
+                >
+                  <img src="./assets/daisy_high.jpeg" alt="" />
+                  <p>RESOURCES</p>
+                  <h4>Inclusive Publishing</h4></a
+                >
+              </div>
+              <div class="feature__container-right-1-grid-card-2">
+                <a
+                  href="https://www.getstark.co/library/link?href=https%3A%2F%2Fapln.ca%2F"
+                  style="text-decoration: none"
+                >
+                  <img src="./assets/APLN.png" alt="" />
+                  <p>RESOURCES</p>
+                  <h4>The APLN (Accessible Publishing...</h4></a
+                >
+              </div>
+              <div class="feature__container-right-1-grid-card-3">
+                <a
+                  href="https://www.getstark.co/library/link?href=https%3A%2F%2Fmakingaccessiblebooks.ca%2F"
+                  style="text-decoration: none"
+                  v
+                >
+                  <img src="./assets/img3.jpeg" alt="" />
+                  <p>RESOURCES</p>
+                  <h4>Making Accessible Books</h4></a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="section bottom">
-      <div class="bottom__container">
-        <div class="bottom__container-top">
-          <div class="bottom__container-top-box-1">
-            <div class="bottom__container-top-box-1-in">
-              <p>USE CASES</p>
-              <a
-                href="https://www.getstark.co/for-designers/"
-                style="text-decoration: none"
-                >For Designers</a
-              >
-              <a
-                href="https://www.getstark.co/for-developers/"
-                style="text-decoration: none"
-                >For Developers</a
-              >
-              <a
-                href="https://www.getstark.co/for-product-managers/"
-                style="text-decoration: none"
-                >For Product Managers</a
-              >
-              <a
-                href="https://www.getstark.co/for-compliance-managers/"
-                style="text-decoration: none"
-                >For Compliance Managers</a
-              >
+      <div class="section bottom">
+        <div class="section bottom__container">
+          <div class="section bottom__container__text">
+            <div class="section bottom__container__text-item">
+              <div class="section bottom__container__text-item-1">
+                <ol>
+                  <p>USE CASES</p>
+                  <li>For Designers</li>
+                  <li>For Developer</li>
+                  <li>For Product Managers</li>
+                  <li>For Compliance Managers</li>
+                </ol>
+              </div>
+              <div class="section bottom__container__text-item-2">
+                <ol>
+                  <p>RESOURCES</p>
+                  <li>Blog</li>
+                  <li>Library</li>
+                  <li>Release Notes</li>
+                  <li>Slack Community</li>
+                </ol>
+              </div>
+              <div class="section bottom__container__text-item-3">
+                <ol>
+                  <p>HELP</p>
+                  <li>My Account</li>
+                  <li>Support Docs</li>
+                  <li>Contact Us</li>
+                  <li>Feature Requests</li>
+                </ol>
+              </div>
+              <div class="section bottom__container__text-item-4">
+                <ol>
+                  <p>COMPANY</p>
+                  <li>Stark Framework</li>
+                  <li>Privacy Policy</li>
+                  <li>Terms of Service</li>
+                  <li>Code of Conduct</li>
+                </ol>
+              </div>
+              <div class="section bottom__container__text-item-5">
+                <ol>
+                  <p>SECURITY</p>
+                  <li>Security Overview</li>
+                  <li>Cookie Policy</li>
+                  <li>GDPR</li>
+                  <li>Status</li>
+                </ol>
+              </div>
+              <div class="section bottom__container__text-item-6">
+                <ol>
+                  <p>DESIGN INTEGRATIONS</p>
+                  <li>Stark for Figma</li>
+                  <li>Stark for FigJam</li>
+                  <li>Stark for Sketch</li>
+                  <li>Stark for Adobe XD</li>
+                </ol>
+              </div>
+              <div class="section bottom__container__text-item-7">
+                <ol>
+                  <p>DEVELOPER INTEGRATIONS</p>
+                  <li>Stark for Chrome</li>
+                  <li>Stark for Firefox</li>
+                  <li>Stark for Edge</li>
+                  <li>Stark for Safari</li>
+                  <li>Stark for Arc</li>
+                  <li>Stark for Brave</li>
+                </ol>
+              </div>
             </div>
           </div>
-          <div class="bottom__container-top-box-2">
-            <div class="bottom__container-top-box-2-in">
-              <p>RESOURCES</p>
-              <a
-                href="https://www.getstark.co/blog/"
-                style="text-decoration: none"
-                >Blog</a
-              >
-              <a
-                href="https://www.getstark.co/library/"
-                style="text-decoration: none"
-                >Library</a
-              >
-              <a
-                href="https://www.getstark.co/release-notes/"
-                style="text-decoration: none"
-                >Release Notes</a
-              >
-              <a
-                href="https://www.getstark.co/slack/"
-                style="text-decoration: none"
-                >Slack Community</a
-              >
+          <div class="section__bottom__container__icon">
+            <div class="section__bottom__container__icon-wrap">
+              <div class="section__bottom__container__icon-wrap-left">
+                <a href=""><img src="./assets/twitter.webp" alt="" /></a>
+                <a href=""><img src="./assets/instagram.webp" alt="" /></a>
+                <a href=""><img src="./assets/slack.webp" alt="" /></a>
+                <a href=""><img src="./assets/in.webp" alt="" /></a>
+                <a href=""><img src="./assets/youtube.webp" alt="" /></a>
+              </div>
+              <div class="section__bottom__container__icon-wrap-right">
+                MADE REMOTELY WITH LOVE BY STARK LAB, INC. COPYRIGHT 2023
+              </div>
             </div>
-          </div>
-          <div class="bottom__container-top-box-3">
-            <div class="bottom__container-top-box-3-in">
-              <p>HELP</p>
-              <a
-                href="https://account.getstark.co/"
-                style="text-decoration: none"
-                >My Account</a
-              >
-              <a
-                href="https://www.getstark.co/support/"
-                style="text-decoration: none"
-                >Support Docs</a
-              >
-              <a
-                href="https://www.getstark.co/support/contact-us/"
-                style="text-decoration: none"
-                >Contact Us</a
-              >
-              <a
-                href="https://www.getstark.co/feature-request/"
-                style="text-decoration: none"
-                >Feature Request</a
-              >
-            </div>
-          </div>
-          <div class="bottom__container-top-box-4">
-            <div class="bottom__container-top-box-4-in">
-              <p>COMPANY</p>
-              <a
-                href="https://www.getstark.co/suaf/"
-                style="text-decoration: none"
-                >Stark Framework</a
-              >
-              <a
-                href="https://www.getstark.co/privacy/"
-                style="text-decoration: none"
-                >Privacy Policy</a
-              >
-              <a
-                href="https://www.getstark.co/tos/"
-                style="text-decoration: none"
-                >Terms of Service</a
-              >
-              <a
-                href="https://github.com/stark-contrast/code-of-conduct"
-                style="text-decoration: none"
-                >Code of Conduct</a
-              >
-            </div>
-          </div>
-          <div class="bottom__container-top-box-5">
-            <div class="bottom__container-top-box-5-in">
-              <p>SECURITY</p>
-              <a
-                href="https://www.getstark.co/security/"
-                style="text-decoration: none"
-                >Security Overview</a
-              >
-              <a
-                href="https://www.getstark.co/cookies/"
-                style="text-decoration: none"
-                >Cookie Polivy</a
-              >
-              <a
-                href="https://www.getstark.co/gdpr/"
-                style="text-decoration: none"
-                >GDPR</a
-              >
-              <a
-                href="https://status.getstark.co/"
-                style="text-decoration: none"
-                >Status</a
-              >
-            </div>
-          </div>
-          <div class="bottom__container-top-box-6">
-            <div class="bottom__container-top-box-6-in">
-              <p>DESIGN INTEGRATIONS</p>
-              <a
-                href="https://www.figma.com/community/plugin/732603254453395948"
-                style="text-decoration: none"
-                >Stark for Figma</a
-              >
-              <a
-                href="https://www.figma.com/community/widget/1030161589655245054"
-                style="text-decoration: none"
-                >Stark for FigJam</a
-              >
-              <a
-                href="https://www.getstark.co/sketch/download/"
-                style="text-decoration: none"
-                >Stark for Sketch</a
-              >
-              <a
-                href="https://exchange.adobe.com/apps/cc/6cbf275e/stark"
-                style="text-decoration: none"
-                >Stark for Adobe XD</a
-              >
-            </div>
-          </div>
-          <div class="bottom__container-top-box-7">
-            <div class="bottom__container-top-box-1-in">
-              <p>DEVELOPER INTEGRATIONS</p>
-              <a
-                href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm"
-                style="text-decoration: none"
-                >Stark for Chrome</a
-              >
-              <a
-                href="https://addons.mozilla.org/en-US/firefox/addon/stark-accessibility-checker/"
-                style="text-decoration: none"
-                >Stark for Firefox</a
-              >
-              <a
-                href="https://microsoftedge.microsoft.com/addons/detail/stark/idpodoagbkllmpdjdepbmlefgiblmnhl"
-                style="text-decoration: none"
-                >Stark for Edge</a
-              >
-              <a
-                href="https://apps.apple.com/us/app/stark-for-safari/id6444031666"
-                style="text-decoration: none"
-                >Stark for Safari</a
-              >
-              <a
-                href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm"
-                style="text-decoration: none"
-                >Stark for Arc</a
-              >
-              <a
-                href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm"
-                style="text-decoration: none"
-                >Stark for Brave</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="bottom__container-btm">
-          <div class="bottom__container-btmin">
-            <div class="bottom__container-btmin-icon">
-              <a
-                class="bottom__container-btmin-icon-twitter"
-                href="https://twitter.com/getstarkco"
-                ><img src="./assets/twitter.webp" alt=""
-              /></a>
-              <a
-                class="bottom__container-btmin-icon-insta"
-                href="https://www.instagram.com/getstarkco/"
-                ><img src="./assets/instagram.webp" alt=""
-              /></a>
-              <a
-                class="bottom__container-btmin-icon-slack"
-                href="https://www.getstark.co/slack/"
-                ><img src="./assets/slack.webp" alt=""
-              /></a>
-              <a
-                class="bottom__container-btmin-icon-in"
-                href="https://www.linkedin.com/company/getstarkco"
-                ><img src="./assets/in.webp" alt=""
-              /></a>
-              <a
-                class="bottom__container-btmin-icon-youtube"
-                href="https://www.youtube.com/channel/UCnhYIgXU1GsrLnLv-NFqVNw/featured"
-                ><img src="./assets/youtube.webp" alt=""
-              /></a>
-            </div>
-            <p>MADE REMOTELY WITH LOVE BY STARK LAB, INC. COPYRIGHT 2023</p>
           </div>
         </div>
       </div>
