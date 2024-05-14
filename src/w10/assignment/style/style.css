@@ -61,8 +61,9 @@ body {
   justify-content: center;
 }
 .feature__container {
-  max-width: 75rem;
   display: flex;
+  max-width: 75rem;
+  width: 1200px;
 }
 .feature__container__nav {
   padding-top: 4rem;
@@ -119,8 +120,10 @@ body {
   border-radius: 0.375rem;
   display: inline-flex;
 }
-.feature__container-right-1 {
-  margin: 4rem 0 0 4rem;
+.feature__container-right {
+  width: 100%;
+  margin-top: 4rem;
+  margin-left: 4rem;
 }
 .feature__container-right-1-hero {
   justify-content: space-between;
@@ -143,29 +146,29 @@ body {
   color: #381fd1;
   letter-spacing: -0.0313rem;
 }
-.feature__container-right-1 img {
-  width: 2.5rem;
-  height: 2.5rem;
-  border: 0.0625rem solid #cbcbcd;
-  border-radius: 0.5rem;
-}
-.feature__container-right-1 p {
-  margin: 0 0 1.5rem 0;
+.feature__container-right-1-hero p {
+  margin-top: 0;
   font-size: 1.25rem;
   line-height: 1.5;
   color: #10284b;
 }
 .feature__container-right-1-grid {
   display: grid;
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+  -moz-column-gap: 32px;
+       column-gap: 32px;
   row-gap: 2rem;
   margin-bottom: 4rem;
 }
 .feature__container-right-1-grid-card-1, .feature__container-right-1-grid-card-2, .feature__container-right-1-grid-card-3, .feature__container-right-1-grid-card-4, .feature__container-right-1-grid-card-5, .feature__container-right-1-grid-card-6 {
-  border: 0.0625rem solid #e5e5e6;
+  padding: 24px 24px 40px 24px;
+  border: 1px solid #e5e5e6;
+}
+.feature__container-right-1-grid-card-1 img, .feature__container-right-1-grid-card-2 img, .feature__container-right-1-grid-card-3 img, .feature__container-right-1-grid-card-4 img, .feature__container-right-1-grid-card-5 img, .feature__container-right-1-grid-card-6 img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0.0625rem solid #cbcbcd;
   border-radius: 0.5rem;
-  padding: 1.5rem 1.5rem 2.5rem 1.5rem;
 }
 .feature__container-right-1-grid-card-1 p, .feature__container-right-1-grid-card-2 p, .feature__container-right-1-grid-card-3 p, .feature__container-right-1-grid-card-4 p, .feature__container-right-1-grid-card-5 p, .feature__container-right-1-grid-card-6 p {
   font-size: 1rem;

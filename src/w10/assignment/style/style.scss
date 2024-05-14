@@ -71,12 +71,14 @@ body {
   justify-content: center;
 
   &__container {
-    max-width: 75rem;
     display: flex;
+    max-width: 75rem;
+    width: 1200px;
 
     &__nav {
       padding-top: 4rem;
       min-width: 17.5rem;
+      // width: 280px;
 
       &-left-text {
         font-size: 1rem;
@@ -138,10 +140,12 @@ body {
       }
     }
 
-    &-right-1 {
-      margin: 4rem 0 0 4rem;
+    &-right {
+      width: 100%;
+      margin-top: 4rem;
+      margin-left: 4rem;
 
-      &-hero {
+      &-1-hero {
         justify-content: space-between;
         align-items: center;
         display: flex;
@@ -163,29 +167,21 @@ body {
           color: #381fd1;
           letter-spacing: -0.0313rem;
         }
+
+        p {
+          margin-top: 0;
+          font-size: 1.25rem;
+          line-height: 1.5;
+          color: #10284b;
+        }
       }
 
-      img {
-        width: 2.5rem;
-        height: 2.5rem;
-        border: 0.0625rem solid #cbcbcd;
-        border-radius: 0.5rem;
-      }
-
-      p {
-        margin: 0 0 1.5rem 0;
-        font-size: 1.25rem;
-        line-height: 1.5;
-        color: #10284b;
-      }
-
-      &-grid {
+      &-1-grid {
         display: grid;
-        column-gap: 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+        column-gap: 32px;
         row-gap: 2rem;
         margin-bottom: 4rem;
-        // grid-template-columns: repeat(auto-fit, minmax(261px, auto));
-        // grid-auto-rows: 1fr;
 
         &-card-1,
         &-card-2,
@@ -193,10 +189,14 @@ body {
         &-card-4,
         &-card-5,
         &-card-6 {
-          // background-color: aqua;
-          border: 0.0625rem solid #e5e5e6;
-          border-radius: 0.5rem;
-          padding: 1.5rem 1.5rem 2.5rem 1.5rem;
+          padding: 24px 24px 40px 24px;
+          border: 1px solid #e5e5e6;
+          img {
+            width: 2.5rem;
+            height: 2.5rem;
+            border: 0.0625rem solid #cbcbcd;
+            border-radius: 0.5rem;
+          }
 
           p {
             font-size: 1rem;
@@ -217,6 +217,86 @@ body {
         }
       }
     }
+
+    // &-right {
+    //   margin: 4rem 0 0 4rem;
+
+    //   &-hero {
+    //     justify-content: space-between;
+    //     align-items: center;
+    //     display: flex;
+    //     margin-bottom: 0.5rem;
+
+    //     h2 {
+    //       margin: 0;
+    //       font-weight: 900;
+    //       line-height: 1.1;
+    //       font-size: 3rem;
+    //       letter-spacing: 0.0313rem;
+    //       color: #10284b;
+    //     }
+
+    //     a {
+    //       font-size: 1rem;
+    //       font-weight: 700;
+    //       line-height: 140%;
+    //       color: #381fd1;
+    //       letter-spacing: -0.0313rem;
+    //     }
+    //   }
+
+    //   img {
+    //     width: 2.5rem;
+    //     height: 2.5rem;
+    //     border: 0.0625rem solid #cbcbcd;
+    //     border-radius: 0.5rem;
+    //   }
+
+    //   p {
+    //     margin: 0 0 1.5rem 0;
+    //     font-size: 1.25rem;
+    //     line-height: 1.5;
+    //     color: #10284b;
+    //   }
+
+    //   &-grid {
+    //     display: grid;
+    //     column-gap: 2rem;
+    //     row-gap: 2rem;
+    //     margin-bottom: 4rem;
+    //     // grid-template-columns: repeat(auto-fit, minmax(261px, auto));
+    //     // grid-auto-rows: 1fr;
+
+    //     &-card-1,
+    //     &-card-2,
+    //     &-card-3,
+    //     &-card-4,
+    //     &-card-5,
+    //     &-card-6 {
+    //       // background-color: aqua;
+    //       border: 0.0625rem solid #e5e5e6;
+    //       border-radius: 0.5rem;
+    //       padding: 1.5rem 1.5rem 2.5rem 1.5rem;
+
+    //       p {
+    //         font-size: 1rem;
+    //         font-weight: 700;
+    //         line-height: 1.4;
+    //         color: #381fd1;
+    //         margin-block: 0.75rem 0.5rem;
+    //       }
+
+    //       h4 {
+    //         font-size: 1.5rem;
+    //         font-weight: 900;
+    //         line-height: 1.1;
+    //         color: #10284b;
+    //         margin-bottom: 0.5rem;
+    //         margin-top: 0;
+    //       }
+    //     }
+    //   }
+    // }
   }
 }
 
