@@ -71,6 +71,35 @@ body {
   }
 }
 
+.search {
+  color: #acacaf;
+  margin-bottom: 1rem;
+  position: relative;
+
+  svg {
+    top: 2.625rem;
+    left: 0.75rem;
+    position: absolute;
+  }
+
+  .form__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .input__wrapper {
+    display: flex;
+
+    &-in {
+      flex: 1;
+      padding-left: 2.5rem;
+      padding-right: 1rem;
+      border: 0.125rem solid #acacaf;
+      border-radius: 0.25rem;
+      min-height: 2.75rem;
+    }
+  }
+}
 .feature {
   padding-inline: 1.5rem;
   display: flex;
