@@ -175,11 +175,11 @@ body {
   color: #381fd1;
   letter-spacing: -0.0313rem;
 }
-.feature__container-right-1-hero p {
-  margin-top: 0;
+.feature__container-right p {
   font-size: 1.25rem;
   line-height: 1.5;
   color: #10284b;
+  margin-bottom: 1.5rem;
 }
 .feature__container-right-1-grid {
   display: grid;
