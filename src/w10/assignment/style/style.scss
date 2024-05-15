@@ -16,6 +16,7 @@ body {
   background-color: #f6f6eb;
   color: #381fd1;
   padding: 1rem;
+  justify-content: space-between;
 
   &__container {
     display: flex;
@@ -37,6 +38,9 @@ body {
   &__logo {
     aspect-ratio: 200 / 51;
     padding-top: 0.4375rem;
+  }
+
+  &__btn-noline {
   }
 
   &__btn-fill {

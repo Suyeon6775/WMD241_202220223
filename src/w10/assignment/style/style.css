@@ -15,6 +15,7 @@ body {
   background-color: #f6f6eb;
   color: #381fd1;
   padding: 1rem;
+  justify-content: space-between;
 }
 .navigation__container {
   display: flex;
