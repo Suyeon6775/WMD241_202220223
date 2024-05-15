@@ -40,6 +40,7 @@ body {
   color: #fff;
   border: 0.125rem solid #381fd1;
   border-radius: 0.375rem;
+  align-items: center;
 }
 .navigation ol {
   list-style: none;
@@ -186,6 +187,63 @@ body {
   margin-bottom: 0.5rem;
   margin-top: 0;
 }
+.feature__container-right-2 {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, 261px);
+  grid-auto-rows: 1fr;
+  margin-bottom: 4rem;
+}
+.feature__container-right-2-box1, .feature__container-right-2-box3 {
+  padding: 2rem;
+  background-color: #f6f6eb;
+  border-width: 0.0625rem;
+  border-radius: 0.5rem;
+  height: 21.875rem;
+  position: relative;
+}
+.feature__container-right-2-box1 h4, .feature__container-right-2-box3 h4 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1.1;
+  color: #10284b;
+  position: relative;
+  z-index: 10;
+  margin: 0;
+}
+.feature__container-right-2-box1 img, .feature__container-right-2-box3 img {
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.feature__container-right-2-box2 {
+  padding: 2rem;
+  border-width: 0.0625rem;
+  border-radius: 0.5rem;
+  height: 21.875rem;
+  position: relative;
+  background-color: #f3f2fc;
+}
+.feature__container-right-2-box2 h4 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1.1;
+  color: #10284b;
+  position: relative;
+  z-index: 10;
+  margin: 0;
+}
+.feature__container-right-2-box2 img {
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
 
 .bottom {
   padding-inline: 1.5rem;
@@ -241,34 +299,4 @@ body {
   font-weight: 700;
   line-height: 1.4;
   color: #fedb63;
-}
-
-.feature__container-right-1-hero-grid {
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(auto-fill, 261px);
-  grid-auto-rows: 1fr;
-  margin-bottom: 4rem;
-}
-.feature__container-right-1-hero-grid a {
-  border-width: 1px;
-  border-radius: 0.5rem;
-  padding: 2rem;
-  background-color: #f6f6eb;
-  height: 350px;
-  position: relative;
-}
-.feature__container-right-1-hero-grid img {
-  max-width: 100%;
-  height: auto;
-  position: absolute;
-}
-.feature__container-right-1-hero-grid h4 {
-  margin: 0;
-  position: relative;
-  color: #10284b;
-  font-size: 1.5rem;
-  font-weight: 900;
-  line-height: 1.1;
-  z-index: 10;
 }

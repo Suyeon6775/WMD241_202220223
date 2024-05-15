@@ -46,6 +46,7 @@ body {
     color: #fff;
     border: 0.125rem solid #381fd1;
     border-radius: 0.375rem;
+    align-items: center;
   }
 
   ol {
@@ -218,6 +219,71 @@ body {
         }
       }
     }
+
+    &-right-2 {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fill, 261px);
+      grid-auto-rows: 1fr;
+      margin-bottom: 4rem;
+
+      &-box1,
+      &-box3 {
+        padding: 2rem;
+        background-color: #f6f6eb;
+        border-width: 0.0625rem;
+        border-radius: 0.5rem;
+        height: 21.875rem;
+        position: relative;
+
+        h4 {
+          font-size: 1.5rem;
+          font-weight: 900;
+          line-height: 1.1;
+          color: #10284b;
+          position: relative;
+          z-index: 10;
+          margin: 0;
+        }
+
+        img {
+          left: 0;
+          bottom: 0;
+          position: absolute;
+          height: auto;
+          max-width: 100%;
+          vertical-align: middle;
+        }
+      }
+
+      &-box2 {
+        padding: 2rem;
+        border-width: 0.0625rem;
+        border-radius: 0.5rem;
+        height: 21.875rem;
+        position: relative;
+        background-color: #f3f2fc;
+
+        h4 {
+          font-size: 1.5rem;
+          font-weight: 900;
+          line-height: 1.1;
+          color: #10284b;
+          position: relative;
+          z-index: 10;
+          margin: 0;
+        }
+
+        img {
+          left: 0;
+          bottom: 0;
+          position: absolute;
+          height: auto;
+          max-width: 100%;
+          vertical-align: middle;
+        }
+      }
+    }
   }
 }
 
@@ -299,39 +365,5 @@ body {
         }
       }
     }
-  }
-}
-
-.feature__container-right-1-hero-grid {
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(auto-fill, 261px);
-  grid-template-columns 261px 261px 261px
-  grid-auto-rows: 1fr;
-  margin-bottom: 4rem;
-
-  a {
-    border-width: 1px;
-    border-radius: 0.5rem;
-    padding: 2rem;
-    background-color: #f6f6eb;
-    height: 350px;
-    position: relative;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-  }
-
-  h4 {
-    margin: 0;
-    position: relative;
-    color: #10284b;
-    font-size: 1.5rem;
-    font-weight: 900;
-    line-height: 1.1;
-    z-index: 10;
   }
 }
