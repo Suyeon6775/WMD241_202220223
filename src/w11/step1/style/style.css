@@ -17,7 +17,27 @@ body {
   padding-block: 0.5rem 0.375rem;
   font-size: 0.875rem;
   line-height: 0.875rem;
+  background-color: oklch(0.4 0.1 150);
+  color: oklch(0.9 0.1 150);
   text-transform: capitalize;
-  border: 1px solid #000;
   margin-top: 1.25rem;
+  border-radius: 64rem;
+}
+.btn--type-elevated {
+  background-color: oklch(0.95 0.025 150);
+  color: oklch(0.45 0.1 150);
+}
+.btn--type-tonal {
+  background-color: oklch(0.8 0.05 150);
+  color: oklch(0.3 0.1 150);
+}
+.btn--type-outline {
+  background-color: unset;
+  color: oklch(0.4 0.1 150);
+  border: 1px solid oklch(0.5 0 150);
+}
+.btn--type-text {
+  padding-inline: 0.75rem;
+  color: oklch(0.4 0.1 150);
+  background-color: unset;
 }
