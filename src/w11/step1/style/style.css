@@ -11,6 +11,7 @@ body {
 }
 
 .btn {
+  cursor: pointer;
   max-width: -moz-fit-content;
   max-width: fit-content;
   padding-inline: 1rem;
@@ -22,10 +23,21 @@ body {
   text-transform: capitalize;
   margin-top: 1.25rem;
   border-radius: 64rem;
+  transition: all 1000ms ease-out;
+}
+.btn:hover {
+  background-color: oklch(0.4 0.1 240);
+  color: oklch(0.9 0.1 240);
 }
 .btn--type-elevated {
   background-color: oklch(0.95 0.025 150);
   color: oklch(0.45 0.1 150);
+  box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+}
+.btn--type-elevated:hover {
+  background-color: oklch(0.95 0.025 240);
+  color: oklch(0.45 0.1 240);
+  box-shadow: 0rem 0.125rem 0.125rem 0rem rgba(0, 0, 0, 0.25);
 }
 .btn--type-tonal {
   background-color: oklch(0.8 0.05 150);
@@ -40,4 +52,29 @@ body {
   padding-inline: 0.75rem;
   color: oklch(0.4 0.1 150);
   background-color: unset;
+}
+.btn--type-text:hover {
+  background-color: unset;
+  color: oklch(0.4 0.1 150);
+  animation-name: rainbow;
+  animation-duration: 5s;
+}
+
+@keyframes rainbow {
+  0% {
+    background-color: oklch(0.5 0.2 0);
+    transform: translate(0rem, 0rem);
+  }
+  25% {
+    transform: translate(1rem, 0rem);
+  }
+  50% {
+    transform: translate(1rem, 1rem);
+  }
+  75% {
+    transform: translate(0rem, 1rem);
+  }
+  100% {
+    background-color: oklch(0.5 0.2 240);
+  }
 }
