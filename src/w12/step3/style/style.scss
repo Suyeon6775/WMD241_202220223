@@ -20,12 +20,12 @@ body {
 .card {
   padding: 1rem;
   background-color: oklch(0.9 0.2 240);
-  transition: all 300ms ease-in-out;
   border: 2px solid rgba(0, 0, 0, 0);
-}
-.card:hover {
-  background-color: oklch(0.9 0.2 120);
-}
-.card--state-clicked {
-  border: 2px solid rgb(0, 0, 0);
+  transition: all 300ms ease-in-out;
+  &:hover {
+    background-color: oklch(0.9 0.2 120);
+  }
+  &--state-clicked {
+    border: 2px solid rgba(0, 0, 0, 1);
+  }
 }
